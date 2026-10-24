@@ -37,7 +37,7 @@ def main():
     if a.json:
         print(json.dumps({"answer": answer, "trace": trace}))
     else:
-        print(f"\nANSWER: {answer}")
+        print(f"\nANSWER: {answer2}")
 
 
 if __name__ == "__main__":
